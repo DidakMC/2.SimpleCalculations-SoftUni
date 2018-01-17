@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SquareArea
+namespace HelloDid
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var side = int.Parse(Console.ReadLine());
-            var area = side * side;
-            Console.WriteLine(area);
+           string name= Console.ReadLine();
+            Console.WriteLine("Hello, " +name +"!");
         }
     }
 }

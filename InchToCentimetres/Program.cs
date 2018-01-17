@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SquareArea
+namespace InchToCentimetres
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var side = int.Parse(Console.ReadLine());
-            var area = side * side;
-            Console.WriteLine(area);
+            var inch = double.Parse(Console.ReadLine());
+            var centimetres = inch * 2.54;
+            Console.WriteLine(centimetres);
         }
     }
 }
